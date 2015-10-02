@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Timesheet.Web.Models.CommentModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@Html.React("CommentBox", new
+{
+    initialData = Model,
+    url = Url.Action("Comments"),
+    submitUrl = Url.Action("AddComment"),
+    pollInterval = 2000,
+})
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/Tutorial.jsx")"></script>
+    @Html.ReactInitJavaScript()
+}

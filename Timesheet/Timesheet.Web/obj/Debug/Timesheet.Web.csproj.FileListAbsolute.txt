@@ -1,0 +1,2 @@
+D:\GithubRepositories\Timesheet\Timesheet\Timesheet.Web\bin\ClearScript.V8\ClearScriptV8-32.dll
+D:\GithubRepositories\Timesheet\Timesheet\Timesheet.Web\bin\ClearScript.V8\v8-ia32.dll
