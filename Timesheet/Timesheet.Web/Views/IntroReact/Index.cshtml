@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Intro React</h2>
+
+@Html.React("IntroReact", new
+{
+    
+})
+
+@section scripts{
+    <script src="@Url.Content("~/Scripts/IntroReact.jsx")" type="text/babel"></script>
+    @Html.ReactInitJavaScript()
+}

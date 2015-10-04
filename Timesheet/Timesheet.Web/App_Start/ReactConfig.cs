@@ -26,7 +26,11 @@ namespace Timesheet.Web
 
             ReactSiteConfiguration.Configuration
                 .AddScript("~/Scripts/showdown.js")
-                .AddScript("~/Scripts/Tutorial.jsx");
+                .AddScript("~/Scripts/Tutorial.jsx")
+                .AddScript("~/Scripts/IntroReact.jsx")
+                .AddScript("~/Scripts/JsxFundamental.jsx")
+                .AddScript("~/Scripts/Project.jsx")
+                ;
 		}
 	}
 }
